@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Bỏ qua môi trường ảo (nếu có)
+venv/
+.venv/
+env/
+
+# Bỏ qua các file rác Python
+__pycache__/
+*.pyc
+
+# Bỏ qua các file chứa key/token bí mật
+.env
